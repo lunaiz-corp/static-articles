@@ -63,9 +63,35 @@ import "@unocss/reset/tailwind-v4.css";
             margin: 10px 0;
         }
 
+        a {
+            color: #3b82f6;
+            text-decoration: underline;
+        }
+
         li {
             list-style: decimal;
             list-style-position: inside;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        th, td {
+            border: 1px solid #e5e7eb;
+            padding: 12px 16px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f9fafb;
+            font-weight: 700;
+        }
+
+        tr:hover {
+            background-color: #f9fafb;
         }
     </style>
 </head>
