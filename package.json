@@ -11,8 +11,8 @@
   "dependencies": {
     "@astrojs/cloudflare": "^12.6.12",
     "@astrojs/mdx": "^4.3.13",
-    "@astrojs/sitemap": "^3.6.1",
+    "@astrojs/sitemap": "3.7.0",
     "@unocss/reset": "^66.5.12",
-    "astro": "^5.16.8"
+    "astro": "5.17.1"
   }
 }
